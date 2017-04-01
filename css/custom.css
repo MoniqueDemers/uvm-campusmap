@@ -11,6 +11,7 @@ header{
 footer{
     padding-left: 15%;
     padding-bottom: 5px;
+    font-size: 8pt;
 }
 body{
     background-color: #FFFDEA;
@@ -76,4 +77,8 @@ ul.nav{
     overflow: auto; 
     margin-top: 4em;
     padding-top: 2em;    
+}
+
+li{
+    padding-top: 0.75em;
 }

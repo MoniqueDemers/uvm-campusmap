@@ -1,4 +1,4 @@
 <!-- ######################     Footer  #################################### -->
 <footer>
-	<p>Where are you? Codefest Team 5</p>
+	<p>Created by: Monique Demers, Eric Dewind, David Duong, Brandon Goodwin, and Meghan King</p>
 </footer>
