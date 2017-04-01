@@ -20,9 +20,6 @@ body{
 h1{
     padding-left: 10%;
    color: black;
-   -webkit-text-fill-color: #f2cd2b; /* Will override color (regardless of order) */
-   -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: black;
    font-size: 30pt;
 }
 /*ORGANIZING CONTENT*/
@@ -36,12 +33,20 @@ h3, p{
 iframe{
     padding-left: 15%;
 }
-
+/*FIGURES*/
 figure{
     padding-left: 15%;
 }
+figure.waterman{
+    max-width: 400px;
+}
 figure.yes{
    align-content: center;
+}
+figure.header{
+    max-width: 100px;
+    float: left;
+    padding-left: 10px;
 }
 ul.building{
     padding-left: 15%;
