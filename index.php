@@ -6,6 +6,7 @@ include "nav.php";
         <h2>About</h2>
         <p>New to campus? Lost? Looking for food? Take a photo of the closest building and find out where you are and some cool campus info!</p>
         <!-- Upload or take photo button -->
+<<<<<<< HEAD
     <script>
    function previewFile(){
        var preview = document.querySelector('img'); //selects the query named img
@@ -34,8 +35,12 @@ include "nav.php";
             name="submit">
     </form>
 
+=======
+        <div id="uploadButtons">
+        <button type="button">Upload Image</button>
+>>>>>>> origin/master
         <button type="button" onclick="alert('Allow access to camera')">Take Photo</button>
-        <p></p>
+        </div>
         <!-- Campus Map -->
         <!--<figure>
             <img alt="Map of UVM Campus" src='image/campusmap.jpg'>
